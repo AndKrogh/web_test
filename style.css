@@ -168,8 +168,20 @@ a{
 }
 
 .right {
-    margin: 0px 5%;
+    margin: 6% 5%;
     width: 20%;
+}
+
+.contact_information {
+    margin-top: 20%;
+}
+
+.contact_information .adress,
+.contact_information .phone_number,
+.contact_information .mail {
+    display: flex;
+    flex-direction: row;
+
 }
 
 .field {
