@@ -98,6 +98,12 @@ a{
     }
 }
 
+.hex_rows {
+    display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
 .hexagon {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   background: url("") no-repeat;
@@ -105,5 +111,5 @@ a{
   margin: 10px auto;
   height: 200px;
   width: 200px; 
-  background-color: brown;     
+  background-color: brown;    
 }
