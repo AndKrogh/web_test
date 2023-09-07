@@ -120,7 +120,7 @@ a{
 /* Information section */
 .information_div {
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     background-color: #7fffd4;
     display: flex;
     flex-direction: row;
@@ -151,24 +151,29 @@ a{
 .container_box {
     position: relative;
     display: flex;
-    height: 50vh;
-    padding: 20px 100px;
+    height: 70vh;
+    margin: 4% 5%;
 }
 
-.container_box::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
+.container_box h2, .container_box h3 {
+    margin-bottom: 10px;
+}
+
+.container_box h3 {
+    margin-bottom: 40px;
+}
+
+.left {
+    width: 60%;
 }
 
 .right {
-    padding: 25px 40px;
+    margin: 0px 5%;
+    width: 20%;
 }
 
 .field {
-    width: 60%;
+    width: 100%;
     padding: 0.5rem 1rem;
     outline: none;
     border:2px solid #45526C;
