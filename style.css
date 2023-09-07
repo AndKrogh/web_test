@@ -97,3 +97,13 @@ a{
         left: 0;
     }
 }
+
+.hexagon {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("https://i.imgur.com/waDgcnc.jpg") no-repeat;
+  background-size: cover;
+  margin: 10px auto;
+  height: 200px;
+  width: 200px; 
+  background-color: brown;     
+}
