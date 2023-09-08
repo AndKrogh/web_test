@@ -6,7 +6,7 @@
 
 /* Navigation bar */
 header {
-    background-color: rgb(53, 50, 50);
+    background-color: #353232;
 }
 
 li{
@@ -19,17 +19,16 @@ a{
 }
 
 .navbar {
-    min-height: 70px;
+    min-height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0 24px;
 
 }
 
 .nav-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 60px;
 }
@@ -60,6 +59,36 @@ a{
     transition: all 0.3s ease-in-out;
     background-color: white;
 
+}
+
+.hexagon_nav{
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("") no-repeat;
+    background-size: cover;
+    margin: 0px auto -50px 0px;
+    height: 200px;
+    width: 200px; 
+    background-color: #353232;  
+}
+
+.shape1 {
+  height: 100px;
+  width: 100px;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  transform: skew(15deg);
+  rotate: 53deg;
+  margin: 30px 52px 20px;
+}
+
+.shape2 {
+     height: 60px;
+    width: 60px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: skew(0deg);
+    rotate: 1deg;
+    margin: 2px 3px 29px;
 }
 
 @media (max-width: 768px){
@@ -111,11 +140,13 @@ a{
     flex-direction: row;
     margin-left: 100px;
     margin-bottom: -50px;
+    flex-wrap: wrap;
 }
 
 .hex_mid{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .hex_bot{
@@ -123,27 +154,25 @@ a{
     flex-direction: row;
     margin-left: 100px;
     margin-top: -50px;
+    flex-wrap: wrap;
 }
 
 
 .hex_rows {
-
+    margin: 80px auto;
     
 }
 
 #hexagon {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  background: url("") no-repeat;
   background-size: cover;
   margin: 10px 10px;
   height: 200px;
   width: 200px; 
-  background-color: brown;    
 }
 
 /* Information section */
 .information_div {
-    width: 100vw;
     height: 50vh;
     background-color: #7fffd4;
     display: flex;
@@ -167,7 +196,6 @@ a{
   margin: 4% 0% 0% 11.5%;
   height: 200px;
   width: 200px; 
-  background-color: brown;  
 }
 
 /*contact formular*/
