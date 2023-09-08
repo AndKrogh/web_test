@@ -101,17 +101,41 @@ a{
 }
 
 /* Image section */
-.hex_rows {
-    display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
+
+.hex_container{
+      display: flex; 
 }
 
-.hexagon {
+.hex_top{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-bottom: -50px;
+}
+
+.hex_mid{
+    display: flex;
+    flex-direction: row;
+}
+
+.hex_bot{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+
+.hex_rows {
+
+    
+}
+
+#hexagon {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   background: url("") no-repeat;
   background-size: cover;
-  margin: 10px auto;
+  margin: 10px 10px;
   height: 200px;
   width: 200px; 
   background-color: brown;    
