@@ -1,5 +1,3 @@
-/* Anders's kode */
-
 let galleryImg = document.querySelectorAll(".galleri-img");
 let getLatestOpenedeImg;
 let windowWidth = window.innerWidth;
