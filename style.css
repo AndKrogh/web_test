@@ -5,6 +5,12 @@
 }
 
 /* Navigation bar */
+.hex_img_h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 header {
     background-color: #353232;
 }
@@ -185,6 +191,113 @@ a{
   background-color: #353232;
 }
 
+.hexagon1 {
+    background-image: url(images/img-galleri/thumbnails/img1.WebP);
+}
+
+.hexagon2 {
+    background-image: url(images/img-galleri/thumbnails/img2.WebP);
+}
+
+.hexagon3 {
+    background-image: url(images/img-galleri/thumbnails/img3.WebP);
+}
+
+.hexagon4 {
+    background-image: url(images/img-galleri/thumbnails/img4.WebP);
+}
+
+.hexagon5 {
+    background-image: url(images/img-galleri/thumbnails/img5.WebP);
+}
+
+.hexagon6 {
+    background-image: url(images/img-galleri/thumbnails/img6.WebP);
+}
+
+.hexagon7 {
+    background-image: url(images/img-galleri/thumbnails/img7.WebP);
+}
+
+.hexagon8 {
+    background-image: url(images/img-galleri/thumbnails/img8.WebP);
+}
+
+.hexagon9 {
+    background-image: url(images/img-galleri/thumbnails/img9.WebP);
+}
+
+.hexagon10 {
+    background-image: url(images/img-galleri/thumbnails/img10.WebP);
+}
+
+.hexagon11 {
+    background-image: url(images/img-galleri/thumbnails/img11.WebP);
+}
+
+.hexagon12 {
+    background-image: url(images/img-galleri/thumbnails/img12.WebP);
+}
+
+.hexagon13 {
+    background-image: url(images/img-galleri/thumbnails/img13.WebP);
+}
+
+.img-window {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+ }
+ 
+ .img-window img {
+    max-height: 80vh;
+    max-width: 80vw;
+    border-radius: 20px;
+ }
+
+/* næste billede styling */
+.img-btn-next {
+    display: block;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background-color: #111111;
+    position: fixed;
+    top: 48vh;
+    z-index: 500;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+ }
+ 
+ .img-btn-next:hover {
+    opacity: 0.8;
+ }
+ 
+ .img-btn-prev {
+    display: block;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background-color: #111111;
+    position: fixed;
+    top: 48vh;
+    z-index: 500;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+ }
+ 
+ .img-btn-prev:hover {
+    opacity: 0.8;
+ }
+
 /* Information section */
 .information_div {
     height: 50vh;
@@ -220,8 +333,6 @@ a{
 
 .hexagon_info_img {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  background: url("") no-repeat;
-  background-size: cover;
   margin: 5.5% 0% 0% 11.5%;
   height: 200px;
   width: 200px; 
@@ -231,7 +342,7 @@ a{
 .some_box {
     height: 20px; 
     width: 200px;
-    background-color: brown;
+    background-color: #89f2d2;
     float: right;
     margin-right: 130px;
 }
